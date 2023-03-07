@@ -7,13 +7,15 @@
 }
 
 body{
-    background:url('https://images.hdqwalls.com/download/beautiful-purple-weather-landscape-of-lake-matheson-7w-1125x2436.jpg');
+    background:url('https://free4kwallpapers.com/uploads/originals/2015/10/17/greate-scene-of-weather-wallpaper.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     overflow:hidden;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
 }
+
+
 
 .container{
     padding: 20px 70px;
@@ -191,4 +193,8 @@ body{
         align-items: none;
         overflow-x: scroll;
     }
+
+
+    
+
 }
