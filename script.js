@@ -5,12 +5,18 @@ const timezone = document.getElementById('time-zone');
 const countryEl = document.getElementById('country');
 const weatherForecastEl = document.getElementById('weather-forecast');
 const currentTempEl = document.getElementById('current-temp');
+const searchBtn = document.getElementById('searchBtn');
+
 
 
 const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
+
+
 const API_KEY ='49cc8c821cd2aff9af04c9f98c36eb74';
+
+
 
 setInterval(() => {
     const time = new Date();
@@ -41,7 +47,9 @@ function getWeatherData () {
         })
 
     })
-}
+};
+
+
 
 function showWeatherData (data){
     let {humidity, pressure, sunrise, sunset, wind_speed} = data.current;
@@ -71,6 +79,7 @@ function showWeatherData (data){
         <div>${window.moment(sunset*1000).format('HH:mm a')}</div>
     </div>
     
+
     
     `;
 
