@@ -61,12 +61,12 @@ body{
 .place-container button, input {
     font-size: 12px;
     font-family: "Lora";
-    border: 1px solid #fff;
+    border: 1px solid #c87e10;
     border-radius: 5px;
     padding: 5px;
     margin: 10px 0;
     background: rgba(24,24,27, 0.6);
-    color: #fff;
+    color: #c87e10;
 }
 
 .current-info .others{
@@ -76,7 +76,7 @@ body{
     padding: 20px;
     border-radius: 10px;
     margin: 10px 0;
-    border: 1px solid #eee;
+    border: 1px solid #c87e10;
 }
 
 .current-info .others .weather-item{
@@ -103,7 +103,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #eee;
+    border: 1px solid #c87e10;
     border-radius: 10px;
     padding:15px;
     padding-right: 40px;
@@ -113,7 +113,7 @@ body{
 
 .future-forecast .today .day{
     padding: 5px 15px;
-    background: #3c3c44;
+    background: #c87e10;
     border-radius: 50px;
     text-align: center;
 }
@@ -133,7 +133,7 @@ body{
     align-items: center;
     justify-content: center;
     margin: 0 10px;
-    border: 1px solid #eee;
+    border: 1px solid #c87e10;
     padding: 15px;
     border-radius: 10px;
     background: rgba(0,0,0,0.2)
@@ -141,7 +141,7 @@ body{
 
 .weather-forecast .weather-forecast-item .day{
     padding: 5px 15px;
-    background: #3C3C44;
+    background: #c87e10;
     border-radius: 50px;
     text-align: center;
 }
